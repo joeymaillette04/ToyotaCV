@@ -5,7 +5,7 @@
   <img width="910" height="476" src="https://github.com/joeymaillette04/ToyotaCV/assets/71158927/2013dad9-ea8d-4242-b627-1b55092d4469">
 </p>
 
-#### Development Team: [Camron Sabahi-Pourkashani](https://github.com/csabahi), [Joey Maillette](https://github.com/joeymaillette04), [Jeffrey Luo](https://github.com/Jeffbhluo)
+#### Development Team: [Camron Sabahi-Pourkashani](https://github.com/csabahi), [Joey Maillette](https://github.com/joeymaillette04), [Jeffrey Luo](https://github.com/Jeffbhluo), [Shahmeer Ali](https://github.com/shvhmeer786)
 
 
 ## Introduction
@@ -31,6 +31,9 @@ Set up a high-resolution camera or a network of cameras to capture a live feed o
 
 3. Testing and Optimization: Conduct extensive testing to ensure the accuracy, reliability, and speed of the system. Optimize the algorithms and parameters as necessary to achieve the desired performance.
 
+## A Next Step
+After the algorithms previously mentioned detect a hole and ensure that hole must be covered with a sticker, we additionally created a machine-learning model to evaluate the precision and quality of the sticker placement. This was implemented by creating a CNN (convolutional neural-network) that was able to detect wrinkles after the placement and training the model to identify whether or not the machine correctly placed this sticker. Although we did not have the data or resources to implement this advancement fully, this serves as the grounds to further improve this automation process.
+
 ## Built With
 In order to develop this computer vision algorithm, we have utilized various tecnologies and frameworks:
 
@@ -38,6 +41,9 @@ In order to develop this computer vision algorithm, we have utilized various tec
 * ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 * ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 * ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+* ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+* ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+
 
 
 ## Conclusion
